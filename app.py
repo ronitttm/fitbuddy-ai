@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
 from io import BytesIO
-import textwrap
 from reportlab.lib.utils import simpleSplit
 
 # Load API key
