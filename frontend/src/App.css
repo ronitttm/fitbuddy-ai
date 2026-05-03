@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.workout-container {
+  margin-top: 30px;
+  width: 80%;
+}
+
+.exercise-card {
+  background: #1e1e1e;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.exercise-card h3 {
+  color: #00ffcc;
+  margin-bottom: 5px;
+}
+
+select, button {
+  margin: 8px;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.workout-container {
+  margin-top: 25px;
+  width: 80%;
+}
+
+.exercise-card {
+  background: #1e1e1e;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.exercise-card h3 {
+  color: #00ffcc;
+}
+
+.App {
+  background: #f5f6fa;
+  color: #111;
+  min-height: 100vh;
+  transition: 0.3s;
+}
+
+.App.dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.theme-toggle {
+  background: none;
+  border: 1px solid currentColor;
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.controls select,
+.controls button {
+  background: #fff;
+  color: #111;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 5px;
+}
+
+.App.dark .controls select,
+.App.dark .controls button {
+  background: #1e293b;
+  color: #e5e7eb;
+  border: 1px solid #334155;
+}
+
+.workout {
+  margin-top: 30px;
+}
+
+.exercise {
+  background: rgba(0,0,0,0.05);
+  padding: 14px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+}
+
+.App.dark .exercise {
+  background: #1e293b;
+}
+
+.App.dark {
+  background:#121212;
+  color:white;
+}
+
+.body-wrapper {
+  display:flex;
+  gap:40px;
+  justify-content:center;
+  margin:20px 0;
+}
+
+.tooltip {
+  margin:10px;
+  font-weight:bold;
+}
+
+.exercise {
+  border:1px solid #ccc;
+  padding:12px;
+  margin:10px;
+  border-radius:8px;
+}
+
+.dark .exercise {
+  border-color:#444;
+}
+
+.dark-toggle {
+  margin:10px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
